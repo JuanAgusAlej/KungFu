@@ -4,150 +4,87 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Vite + TS</title>
   </head>
-  <body
-    style="
-      padding: 0;
-      margin: 0;
-      width: 100vw;
-      background: linear-gradient(#7a0013 0%, #001543 100%);
-      color: #fff;
-    ">
-    <div
-      style="
-        display: flex;
-        background-image: url(assect/saludo2.jpg);
-        background-size: cover;
-        width: 100vw;
-        height: 100vh;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-      ">
+  <body>
+    <div id="headerConteiner">
+      <img id="headerImg" src="assect/saludo2.jpg" alt="" />
       <div>
-        <h1
-          style="
-            color: #fff;
-            margin: 0;
-            padding: 0;
-            font-size: 72px;
-            text-shadow: 10px 10px 10px #000;
-          ">
-          Clases de KungFu
-        </h1>
-        <h2
-          style="
-            color: #fff;
-            margin: 0;
-            padding: 0;
-            font-size: 50px;
-            text-shadow: 10px 10px 10px #000;
-          ">
-          Por Santiago Rocha
-        </h2>
+        <h1>Clases de KungFu</h1>
+        <h2>Por Santiago Rocha</h2>
       </div>
     </div>
-    <div
-      style="
-        display: flex;
-        justify-content: center;
-        width: 90vw;
-        margin-block: 2%;
-      ">
-      <div
-        style="
-          display: flex;
-          max-width: 55%;
-          flex-direction: column;
-          text-align: center;
-          justify-content: center;
-          padding: 5%;
-        ">
-        <h2>Kungfu</h2>
-        <h3>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quasi
-          voluptatem velit quis possimus magnam necessitatibus. Architecto,
-          nesciunt fugit labore doloremque mollitia at a quibusdam. Repellat
-          voluptatum modi beatae aliquam, laboriosam laudantium cumque explicabo
-          voluptates. Dicta, obcaecati nulla quae eligendi quidem consequatur
-          nisi possimus nemo maxime labore enim voluptatem doloribus commodi
-          expedita maiores officia eveniet similique voluptates harum reiciendis
-          ipsam quod. Expedita atque quasi commodi illum eveniet quia itaque ad
-          ex error nulla soluta molestiae magni culpa dignissimos fugit sunt
-          dolorem, alias ullam fuga id ut autem laudantium! Eos unde neque nihil
-          culpa ex nulla temporibus! Maxime reprehenderit qui nisi.
-        </h3>
-      </div>
-      <img
-        style="max-height: 50vh; width: 100%"
-        src="./assect/entrenamiento.jpg" />
-    </div>
-    <div style="display: flex; width: 90vw; margin-block: 2%">
-      <img
-        style="max-height: 50vh; width: 100%; margin-left: 5%"
-        src="./assect/entrenamiento.jpg" />
-      <div
-        style="
-          display: flex;
-          max-width: 50%;
-          padding-inline: 5%;
-          flex-direction: column;
-          text-align: center;
-          justify-content: center;
-        ">
-        <h2>TaiChi</h2>
-        <h3>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quasi
-          voluptatem velit quis possimus magnam necessitatibus. Architecto,
-          nesciunt fugit labore doloremque mollitia at a quibusdam. Repellat
-          voluptatum modi beatae aliquam, laboriosam laudantium cumque explicabo
-          voluptates. Dicta, obcaecati nulla quae eligendi quidem consequatur
-          nisi possimus nemo maxime labore enim voluptatem doloribus commodi
-          expedita maiores officia eveniet similique voluptates harum reiciendis
-          ipsam quod. Expedita atque quasi commodi illum eveniet quia itaque ad
-          ex error nulla soluta molestiae magni culpa dignissimos fugit sunt
-          dolorem, alias ullam fuga id ut autem laudantium! Eos unde neque nihil
-          culpa ex nulla temporibus! Maxime reprehenderit qui nisi.
-        </h3>
-      </div>
-    </div>
-    <div style="text-align: center; margin-block: 2%">
-      <h3>Lugar Y Horarios</h3>
-      <div style="width: 95vw; display: flex">
-        <div
-          style="
-            width: 50%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-          ">
-          <h2>KungFu</h2>
-          <h3>Martes-Miercoles-Jueves: 19.30 - 20.30</h3>
-          <h2>TaiChi</h2>
-          <h3>Martes-Miercoles-Jueves: 18.30 - 18.30</h3>
-          <h2>Horario Mixto</h2>
-          <h3>Sabados: 10.00 - 12.00</h3>
+    <div id="conteiner">
+      <div id="conteinerTextImg">
+        <div id="conteinerText">
+          <h2>Kungfu</h2>
+          <h3>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa,
+            quasi voluptatem velit quis possimus magnam necessitatibus.
+            Architecto, nesciunt fugit labore doloremque mollitia at a
+            quibusdam. Repellat voluptatum modi beatae aliquam, laboriosam
+            laudantium cumque explicabo voluptates. Dicta, obcaecati nulla quae
+            eligendi quidem consequatur nisi possimus nemo maxime labore enim
+            voluptatem doloribus commodi expedita maiores officia eveniet
+            similique voluptates harum reiciendis ipsam quod. Expedita atque
+            quasi commodi illum eveniet quia itaque ad ex error nulla soluta
+            molestiae magni culpa dignissimos fugit sunt dolorem, alias ullam
+            fuga id ut autem laudantium! Eos unde neque nihil culpa ex nulla
+            temporibus! Maxime reprehenderit qui nisi.
+          </h3>
         </div>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d822.2149876938366!2d-58.509450730336205!3d-34.48107689282195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDI4JzUxLjkiUyA1OMKwMzAnMzEuNyJX!5e0!3m2!1ses-419!2sar!4v1715535167441!5m2!1ses-419!2sar"
-          style="border: 0; width: 50%; height: 50vh"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <img id="conteinerImg" src="./assect/entrenamiento.jpg" />
       </div>
+      <div id="conteinerTextImg">
+        <img id="conteinerImg" src="./assect/entrenamiento.jpg" />
+        <div id="conteinerText">
+          <h2>TaiChi</h2>
+          <h3>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa,
+            quasi voluptatem velit quis possimus magnam necessitatibus.
+            Architecto, nesciunt fugit labore doloremque mollitia at a
+            quibusdam. Repellat voluptatum modi beatae aliquam, laboriosam
+            laudantium cumque explicabo voluptates. Dicta, obcaecati nulla quae
+            eligendi quidem consequatur nisi possimus nemo maxime labore enim
+            voluptatem doloribus commodi expedita maiores officia eveniet
+            similique voluptates harum reiciendis ipsam quod. Expedita atque
+            quasi commodi illum eveniet quia itaque ad ex error nulla soluta
+            molestiae magni culpa dignissimos fugit sunt dolorem, alias ullam
+            fuga id ut autem laudantium! Eos unde neque nihil culpa ex nulla
+            temporibus! Maxime reprehenderit qui nisi.
+          </h3>
+        </div>
+      </div>
+      <div id="fechaHora">
+        <h2>Lugar Y Horarios</h2>
+        <div id="conteinerInfo">
+          <div id="textInfo">
+            <h3>KungFu</h3>
+            <h4>Martes-Miercoles-Jueves: 19.30 - 20.30</h4>
+            <h3>TaiChi</h3>
+            <h4>Martes-Miercoles-Jueves: 18.30 - 18.30</h4>
+            <h3>Horario Mixto</h3>
+            <h4>Sabados: 10.00 - 12.00</h4>
+          </div>
+          <iframe
+            id="map"
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d822.2149876938366!2d-58.509450730336205!3d-34.48107689282195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDI4JzUxLjkiUyA1OMKwMzAnMzEuNyJX!5e0!3m2!1ses-419!2sar!4v1715535167441!5m2!1ses-419!2sar"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <p
+        style="
+          margin-bottom: 0;
+          text-align: center;
+          padding: 1%;
+          background-color: #000;
+        ">
+        Copyright © 2024 Tailwind Labs Inc.
+      </p>
     </div>
-    <p
-      style="
-        margin-bottom: 0;
-        text-align: center;
-        padding: 1%;
-        background-color: #000;
-      ">
-      Copyright © 2024 Tailwind Labs Inc.
-    </p>
     <a
       id="instagram-button"
       style="
@@ -159,6 +96,7 @@
         background-image: url('/assect/insta.png');
         opacity: 80%;
         background-size: cover;
+        z-index: 2;
       "
       href="https://www.instagram.com/santiago.rocha.kungfu.taichi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="></a>
   </body>
